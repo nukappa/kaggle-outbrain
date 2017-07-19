@@ -7,7 +7,7 @@ visiting a page.
 
 ## Approach
 I decided to use the [libffm](https://github.com/guestwalk/libffm) to train 
-the model, which is a library for Field-Aware-Factorization machines. `libffm`
+the model, which is a library for field-aware-factorization machines. `libffm`
 requires a special format for the input data, so I used `Python` scripts to transform
 the data appropriately. The following scripts are included in this repo:
 * `methods.py` contains the metrics of the competition (MAPK@7).
@@ -19,4 +19,4 @@ response.
 transforms it into a suitable format for submission.
 
 By using a the raw features and with suitable feature engineering I was
-able to eventually rank 27th amongst 979 teams.
+able to eventually rank 25th amongst 979 teams.
